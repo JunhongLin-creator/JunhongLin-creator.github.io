@@ -39,3 +39,7 @@ img{
 #img2{
     grid-area:img2;
 }
+
+p{
+    font-size: large;
+}
