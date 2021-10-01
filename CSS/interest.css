@@ -1,0 +1,41 @@
+#interest-page{
+    text-decoration: underline;
+}
+
+img{
+    max-width: 50%;
+    max-height:100%;
+}
+
+@media(max-width:400px){
+    img{
+        max-width: 90%;
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        "p1"
+        "img1"
+        "p2"
+        "img2";
+        grid-gap: 2px;
+        justify-items: center;
+    }
+
+#paragraph1{
+    grid-area: p1;
+}
+
+#paragraph2{
+    grid-area: p2;
+}
+
+#img1{
+    grid-area: img1;
+}
+
+#img2{
+    grid-area:img2;
+}
